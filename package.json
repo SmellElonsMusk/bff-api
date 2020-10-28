@@ -6,12 +6,11 @@
   "engines": {
     "node": "14.x",
     "npm": "6.14.7"
-},
-
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon --watch server.js",
-    "build" : "nodemon --watch  --exec babel server.js"
+    "build": "nodemon --watch  --exec babel server.js"
   },
   "keywords": [],
   "author": "",
@@ -31,6 +30,4 @@
     "oauth-1.0a": "^2.2.6",
     "woocommerce-api": "^1.5.0"
   }
-
-  
 }
