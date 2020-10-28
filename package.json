@@ -8,9 +8,7 @@
     "npm": "6.14.7"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon --watch server.js",
-    "build": "nodemon --watch  --exec babel server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
